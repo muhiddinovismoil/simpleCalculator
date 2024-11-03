@@ -18,6 +18,7 @@ body {
     padding: 20px;
     font-size: 5rem;
     text-align: left;
+    color: white;
     border: none;
     background-color: hsl(0, 0%, 20%);
 }
@@ -37,4 +38,19 @@ button {
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover {
+    background-color: hsl(0, 0%, 45%);
+}
+button:active {
+    background-color: hsl(0, 0%, 55%);
+}
+.operator-btn {
+    background-color: hsl(147, 80%, 45%);
+}
+.operator-btn:hover {
+    background-color: hsl(147, 80%, 55%);
+}
+.operator-btn:active {
+    background-color: hsl(147, 80%, 65%);
 }
